@@ -1,5 +1,6 @@
 
-ARGS := '-al --width=80'
+
+ARGS := -a -b -c
 
 a:
-	ARGS="$(ARGS) OTHER_ARGS=bleh" ./foo.sh
+	ALL_ARGS="FOO=bla.json ARGS=$(ARGS)" ./call-make2.sh
