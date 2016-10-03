@@ -1,4 +1,4 @@
 
 
 b:
-	echo $(ALL
+	echo $(ALL_ARGS)
